@@ -58,6 +58,15 @@
             </div>
         </div>
     </div>
-</div>
+</main>
+<footer class="bg-light border-top py-3 position-fixed bottom-0 start-0 w-100">
+    <div class="container text-center text-muted small">
+        <p class="mb-0">
+            실습 수행 일시: <span th:text="${#temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')}"></span>
+            │ 학번: <span>2391042</span>
+            │ 성명: <span>조윤지</span>
+        </p>
+    </div>
+</footer>
 </body>
 </html>
